@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body{
+    font-family:'Poppins',sans-serif;
+    width: auto;
+    margin: auto;
+    border:none;
+}
+
+.row{
+    background: radial-gradient(#621a3f,#11191e00);
+    border-radius:auto;
+    box-shadow:12px 12px 27px;
+    height: auto;
+}
+
+.img{
+    width: 120%;
+    height: 37.5rem;
+    border-top-left-radius: auto;
+    border-bottom-left-radius: auto;
+    border-top-right-radius: auto;
+}
+
+.login h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.inp{
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: -26px -16px -23px rgba(0,0,0,0.35);
+}
+
+header {
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+.btn1{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-weight: 600;
+    background-color: rgb(172, 178, 229)
+}
+
+.btn1:hover{
+    background-color: rgb(12,132,134);
+}
+
+.fa-facebook-square:hover{
+    height: 50px;
+    width:50px;
+    padding: 10px;
+    font-size: 30px;
+    color: blue;
+    gap: 1rem;
+}
+
+.fa-instagram:hover{
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(121, 22, 130);
+    gap: 1rem;
+}
+ 
+.fa-github-square:hover{
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(9, 9, 9);
+    gap: 1rem;
+}
+
+.fa-linkedin:hover{ 
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(48, 48, 112);
+    gap: 1rem;
+}
+
+.fa-whatsapp:hover{
+    padding: 10px;
+    font-size: 30px;
+    color: green;
+    gap: 1rem;
+} 
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(8, 45, 36);
+    font-size: 1rem;
+    margin: 0 40px;
+    padding: 0%;
+}
+
+.nav-bar{
+    list-style: none;
+    font-weight: thick;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+
+.head h1{
+    font-size: 2.1rem;
+    color: rgb(6, 6, 6);
+    font-weight: 100;
+}
+.head h3{
+    font-size: 2.1rem;
+    color: rgb(37, 109, 80);
+    font-weight: 800;
+}
+
+.img-container {
+    float:right;
+    display:block;
+    max-width: 10px;
+    max-height:13px;
+    margin:40px;
+    background-size: 10%;
+    object-fit:cover;
+
+    }
